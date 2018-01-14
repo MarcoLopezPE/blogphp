@@ -1,5 +1,5 @@
 <?php
-define('RUTA', 'http://localhost/blog/');
+define('RUTA', 'http://localhost/blogphp');
 
 $bd_config = array(
     'database' => 'blog',
@@ -9,7 +9,7 @@ $bd_config = array(
 
 $blog_config = array(
     'post_por_pagina' => '2',
-    'carpeta_imagenes' => 'img/'
+    'carpeta_imagenes' => '/img/'
 );
 
 $blog_admin = array(

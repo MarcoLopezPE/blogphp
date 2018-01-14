@@ -26,6 +26,12 @@ function limpiarDatos($datos)
     return $datos;
 }
 
+function limpiarEspacios($texto)
+{
+    $texo = str_replace(' ', '', $texto);
+    return $texto;
+}
+
 function paginaActual()
 {
     return isset($_GET['p']) ? (int) $_GET['p'] : 1;
@@ -82,6 +88,14 @@ function fecha($fecha)
     $year = date('Y', $timestamp);
     $fecha = "$dia de " . $meses[$mes] . " del $year";
     return $fecha;
+}
+
+function comprobarSesion()
+{
+    if (! isset($_SESSION['admin'])) {
+        header('Location: ' . RUTA);
+    }
+    ;
 }
 
 ?>

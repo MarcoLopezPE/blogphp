@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="<?php echo RUTA; ?>css/estilos.css">
+<link rel="stylesheet" href="<?php echo RUTA; ?>/css/estilos.css">
 <title>Blog</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
 			<div class="derecha">
 				<form name="busqueda" 
 					class="buscar"
-					action="<?php echo RUTA; ?>buscar.php" 
+					action="<?php echo RUTA; ?>/buscar.php" 
 					method="get">
 					<input type="text" name="busqueda" placeholder="Buscar">
 					<button type="submit" class="icono fa fa-search"></button>
