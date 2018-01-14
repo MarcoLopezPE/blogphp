@@ -1,0 +1,45 @@
+[2018-01-14 04:35:05.000000 ::1  - Exception: conexion($bd_config) ] PDOException: SQLSTATE[HY000] [1049] Unknown database 'bloggg' in C:\xampp\htdocs\blog\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\blog\functions.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\blog\index.php(5): conexion(Array)
+#2 {main}
+[2018-01-14 04:35:26.000000 ::1  - Exception: conexion($bd_config) ] PDOException: SQLSTATE[HY000] [1049] Unknown database 'bloggg' in C:\xampp\htdocs\blog\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\blog\functions.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\blog\index.php(5): conexion(Array)
+#2 {main}
+[2018-01-14 04:36:42.000000 ::1  - ERROR: functions.php>conexion($bd_config) ] PDOException: SQLSTATE[HY000] [1049] Unknown database 'bloggg' in C:\xampp\htdocs\blog\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\blog\functions.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\blog\index.php(5): conexion(Array)
+#2 {main}
+[2018-01-14 04:42:48.000000 ::1  - ERROR ] ERROR: function.php>conexion($bd_config): PDOException: SQLSTATE[HY000] [1049] Unknown database 'bloggg' in C:\xampp\htdocs\blog\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\blog\functions.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\blog\index.php(5): conexion(Array)
+#2 {main}
+[2018-01-14 04:43:25.000000 ::1  - ERROR] function.php>conexion($bd_config): PDOException: SQLSTATE[HY000] [1049] Unknown database 'bloggg' in C:\xampp\htdocs\blog\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\blog\functions.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\blog\index.php(5): conexion(Array)
+#2 {main}
+[2018-01-14 04:43:44.000000 ::1  - ERROR] File: functions.php>conexion($bd_config): PDOException: SQLSTATE[HY000] [1049] Unknown database 'bloggg' in C:\xampp\htdocs\blog\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\blog\functions.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\blog\index.php(5): conexion(Array)
+#2 {main}
+[2018-01-14 04:44:46 ::1  - ERROR] File: functions.php>conexion($bd_config): PDOException: SQLSTATE[HY000] [1049] Unknown database 'bloggg' in C:\xampp\htdocs\blog\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\blog\functions.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\blog\index.php(5): conexion(Array)
+#2 {main}
+[2018-01-14 04:45:46 IP: ::1  - ERROR] File: functions.php>conexion($bd_config): PDOException: SQLSTATE[HY000] [1049] Unknown database 'bloggg' in C:\xampp\htdocs\blog\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\blog\functions.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\blog\index.php(5): conexion(Array)
+#2 {main}
+[2018-01-14 04:47:15 ::1  - ERROR] /functions.php>conexion($bd_config)-> PDOException: SQLSTATE[HY000] [1049] Unknown database 'bloggg' in C:\xampp\htdocs\blog\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\blog\functions.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\blog\index.php(5): conexion(Array)
+#2 {main}
